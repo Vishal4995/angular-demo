@@ -1,0 +1,224 @@
+/* styles.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mona Sans', sans-serif;
+
+}
+
+.Home-main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Hubot Sans', sans-serif;
+}
+
+.search-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #00c498;
+    min-width: 350px;
+    border: none;
+    color: white;
+    font-family: 'Hubot Sans', sans-serif;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.MainWrapper {
+    // border: 2px solid black;
+    padding: 30px 0px;
+
+}
+
+.search_text {
+    font-size: 15px;
+}
+
+.wrapper_div {
+    text-align: center;
+
+    .cus_input {
+        padding: 9px 20px;
+        min-width: 350px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.searchHeading {
+    font-size: 17px;
+    font-weight: 600;
+    color: #0000008a;
+}
+
+.searchResult {
+margin-top: 30px;
+    .searchResult_text {
+        font-size: 14px;
+        text-align: start;
+     
+        font-weight: 500;
+        color: #414141c7;
+    }
+
+    .UserBorder{
+        border: 1px solid #b5b5b5;
+        border-radius: 3px;
+    }
+}
+
+
+.user_profile {
+    display: flex;
+    // margin-top: 20px;
+    justify-content: space-between;
+    padding: 20px 48px 25px 23px;
+
+    .left {
+        .user_img_heading {
+            font-size: 14px;
+            text-align: start;
+            color: #414141c7;
+            margin-bottom: 5px;
+        }
+    }
+
+    .right {
+        .user_content {
+            font-size: 14px;
+            text-align: start;
+        }
+
+        .user_img_heading {
+            font-size: 14px;
+            text-align: start;
+            color: #414141c7;
+        }
+
+        .user_sub_head {
+         
+            font-weight: 600;
+            text-align: start;
+
+            font-size: 13px;
+            color: rgb(51, 51, 51);
+        }
+    }
+
+}
+
+.profile_image {
+    margin-right: 10px;
+}
+
+.profile_content {
+    /* Your styles for the profile content */
+}
+
+.user_sub_head {
+         
+    font-weight: 600;
+    text-align: start;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
+
+.userImg {
+    border: 1px solid #b5b5b5;
+    // height: 100px;
+    // width: 100px;
+}
+
+.tableheading{
+    width: 50%;
+    padding: 12px 45px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(65, 65, 65, 0.7803921569);
+}
+
+.MainuserImg{
+    height: 100px;
+    width: 100px;
+}
+
+.rem-margin{
+    margin: 0px;
+}
+
+.user_sub_head {
+    vertical-align: top;
+}
+
+.searchIcon{
+    position: absolute;
+    top: 50%;
+    left: 9px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .MainWrapper {
+        padding: 10px;
+    }
+
+    .search_input {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cus_input {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .user_profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        text-align: center;
+    }
+    .cus_table {
+            max-width: 720px !important;
+            margin: auto;
+    }
+
+    .tableheading,
+    .user_sub_head {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+
+    .MainuserImg {
+        max-width: 100%; /* Make sure the user image is responsive */
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+}
+.cus_table {
+        max-width: 720px !important;
+        margin: auto;
+}

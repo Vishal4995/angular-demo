@@ -1,0 +1,103 @@
+
+<div class="MainWrapper">
+    <ul class="nav nav-tabs justify-content-end" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active cus-li" id="simple-tab-0" data-bs-toggle="tab" href="#simple-tabpanel-0"
+                role="tab" aria-controls="simple-tabpanel-0" aria-selected="true" >Home</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link cus-li" id="simple-tab-1" data-bs-toggle="tab" href="#simple-tabpanel-1" role="tab"
+                aria-controls="simple-tabpanel-1" aria-selected="false" >History</a>
+               
+        </li>
+
+    </ul>
+    <div class="tab-content pt-5 d-flex justify-content-center" id="tab-content">
+        <div  class="tab-pane active wrapper_div " id="simple-tabpanel-0" role="tabpanel" aria-labelledby="simple-tab-0">
+            
+            <div>
+                <h1 class="search_text searchHeading">Search GitHub User</h1>
+                <div class="search_input">
+                   
+                    
+                    <i class="fa fa-search searchIcon" aria-hidden="true"></i>
+
+                    <input type="text" placeholder="Search" class="cus_input" />
+                </div>
+                <div>
+                    <button class="search-button">
+                        Search
+                    </button>
+                </div>
+                <div class="searchResult">
+                    <h1 class="searchResult_text">Search Results</h1>
+                    <div class="user_profile UserBorder">
+                        <div class="left">
+                            <h2 class="user_img_heading">User Image</h2>
+                            <div class="userImg">
+                                <img src="../../assets/userprofileimg.jpg" alt="User Profile Image" class="MainuserImg">
+                            </div>
+
+
+                        </div>
+                        <div class="right">
+                            <h2 class="user_img_heading">GitHub User Name</h2>
+                            <h2 class="user_sub_head">Ethan linker</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+          
+              
+
+        </div>
+       <div  class="tab-pane historysection" id="simple-tabpanel-1" role="tabpanel" aria-labelledby="simple-tab-1">
+            <h2 class="mainSearchHis_head">
+                Your Search history
+            </h2>
+            <div class="user_history">
+                <table class="cus_table">
+                    <tr>
+                        <th class="tableheading">Search Term</th>
+                        <th class="tableheading">Search Results</th>
+                    </tr>
+                    <tr>
+                        <td class="user_sub_head">Ethan linker</td>
+                        <td>
+                            <div class="searchResult rem-margin">
+                                <div class="user_profile rem-pd">
+                                    <div class="left">
+                                        <h2 class="user_img_heading">User Image</h2>
+                                        <div class="userImg">
+                                            <img src="../../assets/userprofileimg.jpg"
+                                                alt="User Profile Image Placeholder" class="MainuserImg">
+                                        </div>
+
+                                    </div>
+                                    <div class="right">
+                                        <h2 class="user_img_heading">GitHub User Name</h2>
+                                        <h2 class="user_sub_head">Ethan linker</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="user_sub_head">Peter Thiel</td>
+                        <td class="tableheading">Search Result not found</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="Clearbtn">
+             
+                <button class="search-button">
+                    Clear Search History
+                </button>
+            </div>
+        </div> 
+    </div>
+</div>
+
